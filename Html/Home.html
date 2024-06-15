@@ -9,7 +9,7 @@
         height: 60px;
     }
     .stul{
-        margin-left: 450px;
+        margin-left: 400px;
     }
     .paragraf{
         width: 400px;
@@ -20,12 +20,12 @@
 </head>
 <body>
     <!-- HEADER AND NAVBAR -->
-    <header class="w-100 d-flex justify-content-around align-items-center" style="height: 50px; background-color: #3b5d50;">
-        <div class="table-responsive">
+    <header class="table-responsive w-100 d-flex justify-content-around align-items-center" style="height: 50px; background-color: #3b5d50;">
+        <div class="table-responsive d-flex flex-lg-row flex-column">
             <h1 class="text-white fs-2">Furni.</h1>
         </div>
-        <div class="d-flex gap-5 table-responsive">
-            <div class="d-flex gap-5 table-responsive">
+        <div class="d-flex gap-5">
+            <div class="d-flex gap-5">
                 <a class="text-white" style="text-decoration: none;" href="Home.html">Home</a>
                 <a class="text-white" style="text-decoration: none;" href="Shop.html">Shop</a>
                 <a class="text-white" style="text-decoration: none;" href="About us.html">About us</a>
@@ -33,7 +33,7 @@
                 <a class="text-white" style="text-decoration: none;" href="Blog.html">Blog</a>
                 <a class="text-white" style="text-decoration: none;" href="Contact us.html">Contact us</a>
             </div>
-            <div class="d-flex gap-5 table-responsive">
+            <div class="d-flex gap-5">
                 <img src="https://themewagon.github.io/furni/images/user.svg" alt="Profil">
                 <img src="https://themewagon.github.io/furni/images/cart.svg" alt="Karzinka">
             </div>
@@ -41,7 +41,7 @@
     </header>
     <main class="d-flex flex-column gap-5 flex-wrap table-responsive">
         <!-- HERO BLOCK -->
-        <section class="w-100 d-flex table-responsive" style="background-color: #3b5d50;">
+        <section class="w-100 d-flex table-responsive flex-lg-row flex-column align-items-center" style="background-color: #3b5d50;">
             <div class="w-50 d-flex flex-column justify-content-center gap-5 table-responsive">
                 <h1 class="fs-1 text-white ms-5">Modern Interior <br>Design Studio</h1>
                 <p class="text-white ms-5">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet <br>velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
@@ -131,8 +131,9 @@
                 </div>
             </div>
         </section>
-        <section class="container table-responsive w-100 d-flex justify-content-center align-items-center gap-5">
-            <div class="w-25 table-responsive d-flex align-items-center justify-content-center gap-2">
+        <!-- BLOG BLOCK -->
+        <section class="container table-responsive w-100 d-flex justify-content-center align-items-center gap-5 flex-lg-row flex-column">
+            <div class="w-25 table-responsive d-flex align-items-center-center justify-content-center gap-2 flex-lg-row flex-column ">
                 <img class="w-25" src="https://themewagon.github.io/furni/images/product-1.png" alt="chair">
                 <div class="table-responsive">
                     <h2 class="fs-4">Nordic Chair</h2>
@@ -140,7 +141,7 @@
                 </div>
             </div>
             <div class="table-responsive w-25 d-flex align-items-center justify-content-center gap-2">
-                <img class="w-25" src="https://themewagon.github.io/furni/images/product-2.png" alt="chair">
+                <img class="w-50" src="https://themewagon.github.io/furni/images/product-2.png" alt="chair">
                 <div>
                     <h2 class="fs-4">Nordic Chair</h2>
                     <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
@@ -155,7 +156,7 @@
             </div>
         </section>
         <!-- CAROUSEL BLOCK -->
-        <section class="table-responsive container w-100 ">
+        <section class="table-responsive carousel container w-100">
             <div id="carouselExampleCaptions" class=" table-responsivecarousel slide">
               <div class=" table-responsive carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -232,6 +233,7 @@
                 </div>
             </div>
           </section>
+          <!-- FOOTER -->
           <footer class="container">
             <div>
                 <div class="d-flex">
