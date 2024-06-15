@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .telegram{
+        width: 60px;
+        height: 60px;
+    }
+    .stul{
+        margin-left: 450px;
+    }
+    .paragraf{
+        width: 400px;
+    }
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
     <!-- HEADER AND NAVBAR -->
     <header class="w-100 d-flex justify-content-around align-items-center" style="height: 50px; background-color: #3b5d50;">
-        <div>
+        <div class="table-responsive">
             <h1 class="text-white fs-2">Furni.</h1>
         </div>
-        <div class="d-flex gap-5">
-            <div class="d-flex gap-5">
+        <div class="d-flex gap-5 table-responsive">
+            <div class="d-flex gap-5 table-responsive">
                 <a class="text-white" style="text-decoration: none;" href="Home.html">Home</a>
                 <a class="text-white" style="text-decoration: none;" href="Shop.html">Shop</a>
                 <a class="text-white" style="text-decoration: none;" href="About us.html">About us</a>
@@ -21,46 +33,46 @@
                 <a class="text-white" style="text-decoration: none;" href="Blog.html">Blog</a>
                 <a class="text-white" style="text-decoration: none;" href="Contact us.html">Contact us</a>
             </div>
-            <div class="d-flex gap-5">
+            <div class="d-flex gap-5 table-responsive">
                 <img src="https://themewagon.github.io/furni/images/user.svg" alt="Profil">
                 <img src="https://themewagon.github.io/furni/images/cart.svg" alt="Karzinka">
             </div>
         </div>
     </header>
-    <main class="d-flex flex-column gap-5">
+    <main class="d-flex flex-column gap-5 flex-wrap table-responsive">
         <!-- HERO BLOCK -->
-        <section class="w-100 d-flex" style="background-color: #3b5d50;">
-            <div class="w-50 d-flex flex-column justify-content-center gap-5">
+        <section class="w-100 d-flex table-responsive" style="background-color: #3b5d50;">
+            <div class="w-50 d-flex flex-column justify-content-center gap-5 table-responsive">
                 <h1 class="fs-1 text-white ms-5">Modern Interior <br>Design Studio</h1>
                 <p class="text-white ms-5">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet <br>velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
-                <div class="d-flex gap-4 ms-5">
+                <div class="d-flex gap-4 ms-5 table-responsive">
                     <button class="w-25 btn btn-outline-warning rounded-pill">Shop Now</button>
                     <button class="w-25 btn btn-outline-light rounded-pill">Explore</button>
                 </div>
             </div>
-            <div class="w-50">
+            <div class="w-50 table-responsive">
                 <img class="w-100 object-fit-contain" src="https://themewagon.github.io/furni/images/couch.png" alt="Armchair">
             </div>
         </section>
         <!-- CRAFTED BLOCK -->
-        <section class="container d-flex">
-            <div class="w-25 d-flex flex-column justify-content-center gap-2">
+        <section class="container d-flex ">
+            <div class="w-25 d-flex flex-column justify-content-center gap-2 table-responsive">
                 <h1 class="fs-2 ms-5">Crafted with <br>excellent material.</h1>
                 <p class="text-black-50 ms-5" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
                 <button class="w-25 btn btn-secondary rounded-pill ms-5">Explore</button>
             </div>
-            <div class="w-75 d-flex justify-content-around align-items-center">
-                <div class="w-25 d-flex flex-column justify-content-center align-items-center gap-2">
+            <div class= "table-responsive w-75 d-flex justify-content-around align-items-center">
+                <div class="table-responsive table-responsive w-25 d-flex flex-column justify-content-center align-items-center gap-2">
                     <img class="w-100 object-fit-cover" src="https://themewagon.github.io/furni/images/product-1.png" alt="chair">
                     <h2 class="fs-5 text-black-50">Nordic Chair</h2>
                     <h2 class="fs-5 text-dark">$50.00</h2>
                 </div>
-                <div class="w-25 d-flex flex-column justify-content-center align-items-center gap-2">
+                <div class="table-responsive w-25 d-flex flex-column justify-content-center align-items-center gap-2">
                     <img class="w-100 object-fit-cover" src="https://themewagon.github.io/furni/images/product-2.png" alt="chair">
                     <h2 class="fs-5 text-black-50">Kruzo Aero Chair</h2>
                     <h2 class="fs-5 text-dark">$78.00</h2>
                 </div>
-                <div class="w-25 d-flex flex-column justify-content-center align-items-center gap-2">
+                <div class="w-25 table-responsive d-flex flex-column justify-content-center align-items-center gap-2">
                     <img class="w-100 object-fit-cover" src="https://themewagon.github.io/furni/images/product-3.png" alt="chair">
                     <h2 class="fs-5 text-black-50">Ergonomic Chair</h2>
                     <h2 class="fs-5 text-dark">$43.00</h2>
@@ -69,49 +81,49 @@
         </section>
         <!-- CHOOSE US -->
         <section class="container d-flex">
-            <div class="w-50 d-flex flex-column justify-content-center align-items-center">
+            <div class="w-50 table-responsive d-flex flex-column justify-content-center align-items-center">
                 <div class="w-100 d-flex flex-column">
                     <h1 class="fs-2">Why Choose Us</h1>
                     <p class="fs-6">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
                 </div>
-                <div class="w-100 d-flex flex-wrap justify-content-center align-items-center" style="height: 350px;">
+                <div class="w-100 table-responsive d-flex flex-wrap justify-content-center align-items-center" style="height: 350px;">
                     <div class="w-50 d-flex flex-column justify-content-center">
                         <img class="object-fit-cover" style="width:50px;" src="https://themewagon.github.io/furni/images/truck.svg" alt="track">
                         <h2 class="fs-5">Fast & Free Shipping</h2>
                         <h2 class="fs-6 text-black-50">Donec vitae odio nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</h2>
                     </div>
-                    <div class="w-50 d-flex flex-column justify-content-center">
+                    <div class="w-50 table-responsive d-flex flex-column justify-content-center">
                         <img class="object-fit-cover" style="width:50px;" src="	https://themewagon.github.io/furni/images/bag.svg" alt="bag">
                         <h2 class="fs-5">Easy to Shop</h2>
                         <h2 class="fs-6 text-black-50">Donec vitae odio nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</h2>
                     </div>
-                    <div class="w-50 d-flex flex-column justify-content-center">
+                    <div class="w-50 table-responsive d-flex flex-column justify-content-center">
                         <img class="object-fit-cover" style="width:50px;" src="https://themewagon.github.io/furni/images/support.svg" alt="support">
                         <h2 class="fs-5">24/7 Support</h2>
                         <h2 class="fs-6 text-black-50">Donec vitae odio nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</h2>
                     </div>
-                    <div class="w-50 d-flex flex-column justify-content-center">
+                    <div class="w-50 table-responsive d-flex flex-column justify-content-center">
                         <img class="object-fit-cover" style="width:50px;" src="https://themewagon.github.io/furni/images/return.svg" alt="return">
                         <h2 class="fs-5">Hassle Free Returns</h2>
                         <h2 class="fs-6 text-black-50">Donec vitae odio nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</h2>
                     </div>
                 </div>
             </div>
-            <div class="w-50 d-flex justify-content-center align-items-center">
+            <div class="w-50 table-responsive d-flex justify-content-center align-items-center">
                 <img class="w-75 rounded-5 ms-5" src="https://themewagon.github.io/furni/images/why-choose-us-img.jpg" alt="image">
             </div>
         </section>
         <!-- DESIGN BLOCK -->
-        <section class=" container d-flex">
-            <div class="w-50 d-flex justify-content-center align-items-center">
+        <section class=" table-responsive container d-flex">
+            <div class="w-50 table-responsive d-flex justify-content-center align-items-center">
                 <img class="w-75 rounded-3 ms-5" src="https://themewagon.github.io/furni/images/img-grid-2.jpg" alt="design">
             </div>
-            <div class="w-50 d-flex flex-column justify-content-center gap-3">
-                <div class="w-75 d-flex flex-column gap-2">
+            <div class="table-responsive w-50 d-flex flex-column justify-content-center gap-3">
+                <div class="w-75 table-responsive d-flex flex-column gap-2">
                     <h1 class="fs-2">We Help You Make Modern <br>Interior Design</h1>
                     <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
                 </div>
-                <div class="w-75 d-flex flex-wrap justify-content-around align-items-center gap-3">
+                <div class="w-75 table-responsive d-flex flex-wrap justify-content-around align-items-center gap-3">
                         <li class="">Donec vitae odio quis nisl <br>dapibus malesuada .</pli>
                         <li>Donec vitae odio quis nisl <br>dapibus malesuada .</li>
                         <li>Donec vitae odio quis nisl <br>dapibus malesuada .</li>
@@ -119,22 +131,22 @@
                 </div>
             </div>
         </section>
-        <section class="container w-100 d-flex justify-content-center align-items-center gap-5">
-            <div class="w-25 d-flex align-items-center justify-content-center gap-2">
+        <section class="container table-responsive w-100 d-flex justify-content-center align-items-center gap-5">
+            <div class="w-25 table-responsive d-flex align-items-center justify-content-center gap-2">
                 <img class="w-25" src="https://themewagon.github.io/furni/images/product-1.png" alt="chair">
-                <div>
+                <div class="table-responsive">
                     <h2 class="fs-4">Nordic Chair</h2>
                     <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
                 </div>
             </div>
-            <div class="w-25 d-flex align-items-center justify-content-center gap-2">
+            <div class="table-responsive w-25 d-flex align-items-center justify-content-center gap-2">
                 <img class="w-25" src="https://themewagon.github.io/furni/images/product-2.png" alt="chair">
                 <div>
                     <h2 class="fs-4">Nordic Chair</h2>
                     <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
                 </div>
             </div>
-            <div class="w-25 d-flex align-items-center justify-content-center gap-2">
+            <div class="table-responsive w-25 d-flex align-items-center justify-content-center gap-2">
                 <img class="w-25" src="https://themewagon.github.io/furni/images/product-3.png" alt="chair">
                 <div>
                     <h2 class="fs-4">Nordic Chair</h2>
@@ -143,18 +155,18 @@
             </div>
         </section>
         <!-- CAROUSEL BLOCK -->
-        <section class="container w-100 ">
-            <div id="carouselExampleCaptions" class="carousel slide">
-              <div class="carousel-indicators">
+        <section class="table-responsive container w-100 ">
+            <div id="carouselExampleCaptions" class=" table-responsivecarousel slide">
+              <div class=" table-responsive carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
+              <div class="table-responsive carousel-inner">
+                <div class="table-responsive carousel-item active">
                   <img style="width:100px; height: 500px; object-fit: cover;" src="../Assets/Screenshot 2024-06-14 145748.png" class="d-block w-100" alt="bg-image">
-                  <div class="carousel-caption d-none d-md-block">
-                    <div class="d-flex justify-content-center align-items-center flex-column gap-2">
+                  <div class="table-responsive carousel-caption d-none d-md-block">
+                    <div class="table-responsive d-flex justify-content-center align-items-center flex-column gap-2">
                       <h1 class="text-black">Matt Brandon</h1>
                       <p class="text-black">Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</p></p>
                       <img class="rounded-circle border border-5" style="width:100px;" src="https://themewagon.github.io/furni/images/person-1.png" alt="person">
@@ -163,10 +175,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div class="table-responsive carousel-item">
                   <img style="width:100px; height: 500px; object-fit: cover;" src="../Assets/Screenshot 2024-06-14 145748.png" class="d-block w-100" alt="bg-image">
-                  <div class="carousel-caption d-none d-md-block">
-                    <div class="d-flex justify-content-center align-items-center flex-column gap-2">
+                  <div class="table-responsive carousel-caption d-none d-md-block">
+                    <div class="table-responsive d-flex justify-content-center align-items-center flex-column gap-2">
                       <h1 class="text-black">Matt Brandon</h1>
                       <p class="text-black">Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</p></p>
                       <img class="rounded-circle border border-5" style="width:100px;" src="https://themewagon.github.io/furni/images/person-1.png" alt="person">
@@ -175,10 +187,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div class="table-responsive carousel-item">
                   <img style="width:100px; height: 500px; object-fit: cover;" src="../Assets/Screenshot 2024-06-14 145748.png" class="d-block w-100" alt="bg-image">
-                  <div class="carousel-caption d-none d-md-block">
-                    <div class="d-flex justify-content-center align-items-center flex-column gap-2">
+                  <div class="table-responsive carousel-caption d-none d-md-block">
+                    <div class="table-responsive d-flex justify-content-center align-items-center flex-column gap-2">
                       <h1 class="text-black">Matt Brandon</h1>
                       <p class="text-black">Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</p></p>
                       <img class="rounded-circle border border-5" style="width:100px;" src="https://themewagon.github.io/furni/images/person-1.png" alt="person">
